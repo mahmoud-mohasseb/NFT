@@ -27,14 +27,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Landing />}>
-            {/* <Route index element={<Home />} />
-            <Route path="teams" element={<Teams />}>
-            <Route path=":teamId" element={<Team />} />
-            <Route path="new" element={<NewTeamForm />} />
-            <Route index element={<LeagueStandings />} />
-          </Route> */}
-          </Route>
+          <Route path="/" element={<Landing />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/signin" element={<Signin />}></Route>
           <Route path="/about" element={<About />}></Route>
